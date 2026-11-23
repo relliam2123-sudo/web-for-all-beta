@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Visual Accessibility | Web For All</title>
+		<link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+  	</head>
+
+    <body>
+        <div class="visual-accessibility-container">
+            <header class="visual-accessibility-heading">
+                <h1>Visual Accessibility Guide</h1>
+            </header>
+            <button class="back-button"><a href="accessibility-guide-page.html">Back</a></button>
+        </div>
+
+        <div class="visual-accessibility-content-1">
+            <h3>Helping Everyone Access Visual Information</h3>
+            <p id="visual-paragraph-1">
+                Not everyone sees a screen in the same way. Some people have low vision, 
+                difficulty telling colors apart, or use screen readers to access content. Visual 
+                accessibility helps make sure information stays understandable in different 
+                situations.
+            </p>
+            <button onclick="textToSpeech('visual-paragraph-1')">Read Aloud</button>
+        </div>
+
+        <div class="visual-accessibility-content-2">
+            <h3>Use meaningful image descriptions</h3>
+            <p id="visual-paragraph-2">
+                Add alternative text to images that share important information.
+                This gives screen reader users a way to understand what an image communicates.</p>
+            <button onclick="textToSpeech('visual-paragraph-2')">Read Aloud</button>
+        </div>
+
+        <div class="visual-accessibility-content-3">
+            <h3>Keep text easy to read</h3>
+            <p id="visual-paragraph-3">
+                Choose readable fonts, clear spacing, and layouts that still work when someone zooms in or increases text size.
+            </p>
+            <button onclick="textToSpeech('visual-paragraph-3')">Read Aloud</button>
+        </div>
+
+        <div class="visual-accessibility-content-4">
+            <h3>Do not use color alone</h3>
+            <p id="visual-paragraph-4">
+                Pair colors with labels, icons, or clear messages. A red border by itself should not 
+                be the only sign that a form has an error.
+            </p>
+            <button onclick="textToSpeech('visual-paragraph-4')">Read Aloud</button>
+        </div>
+
+        <div class="visual-accessibility-content-5">
+            <h3>Use clear headings and links</h3>
+            <p id="visual-paragraph-5">
+                Organized headings and descriptive links help people understand and navigate a 
+                page, including those using assistive technology.
+            </p>
+            <button onclick="textToSpeech('visual-paragraph-5')">Read Aloud</button>
+        </div>
+
+        <div class="visual-accessibility-content-6">
+            <h3>Everyday Example</h3>
+            <p id="visual-paragraph-6">
+                Instead of showing only a red warning icon, write: “Please enter your email 
+                address.” The message explains what needs to be fixed without depending on 
+                color.
+            </p>
+            <button onclick="textToSpeech('visual-paragraph-6')">Read Aloud</button>
+        </div>
+
+        <div class="visual-accessibility-content-7">
+            <h3>Key Takeaway</h3>
+            <p id="visual-paragraph-7">
+                Visual accessibility is about making information clear, readable, and available 
+                beyond what someone can see.
+            </p>
+            <button onclick="textToSpeech('visual-paragraph-7')">Read Aloud</button>
+        </div>
+
+        <div class="activity button-container">
+            <button class="activity-button"><a href="word-puzzle-page.html">Start Activity</a></button>
+        </div>
+
+        <footer>
+			<p>&copy; 2026 Web For All. Digital Accessibility for Everyone.</p>
+			<nav>
+			<a href="about-page.html">About</a>
+			<a href="contact-page.html">Contact Us</a>
+			</nav>
+		</footer>
+    </body>
+</html>

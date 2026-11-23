@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Accessibility Guide | Web For All</title>
+		<link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+  	</head>
+
+    <body>
+        <div class="accessibility-guide-container">
+            <Header class="accessibility-guide-heading">
+                <h1 class="title">Welcome to Accessibility Guide</h1>
+            </Header>
+
+            <p id="accessibility-guide-paragraph-container">
+                Digital accessibility means making websites, apps, and online information usable 
+                by people with different abilities. People do not all browse the internet in the 
+                same way. Some use screen readers, captions, keyboards, voice controls, or 
+                simpler page layouts.
+
+                This guide introduces four areas of accessibility. Choose a topic to learn about 
+                common barriers and practical ways to reduce them.
+            </p>
+
+            <button onclick="textToSpeech('accessibility-guide-paragraph-container')">Read Aloud</button>
+            <button class="back-button"><a href="homepage.html">Back</a></button>
+        </div>
+
+        <div class="accessibility-guide-container">
+            <div class="visual-accessibility-button">
+                <h2><a href="visual-accessibility-page.html">Visual Accessibility Guide</a></h2>
+                <p>Making text, images, and page layouts easier to understand for people with different visual needs.</p>
+            </div>
+
+            <div class="hearing-accessibility-button">
+                <h2><a href="hearing-accessibility-page.html">Hearing Accessibility Guide</a></h2>
+                <p>Providing captions, transcripts, and visual information so important content does not depend on sound.</p>
+            </div>
+
+            <div class="physical-accessibility-button">
+                <h2><a href="physical-accessibility-page.html">Physical Accessibility Guide</a></h2>
+                <p>Supporting keyboard navigation and different ways of interacting with a website.</p>
+            </div>
+
+            <div class="cognitive-accessibility-button">
+                <h2><a href="cognitive-accessibility-page.html">Cognitive Accessibility Guide</a></h2>
+                <p>Using clear language, familiar layouts, and simple instructions to reduce confusion.</p>
+            </div>
+        </div>
+
+        <footer>
+			<p>&copy; 2026 Web For All. Digital Accessibility for Everyone.</p>
+			<nav>
+			<a href="about-page.html">About</a>
+			<a href="contact-page.html">Contact Us</a>
+			</nav>
+		</footer>
+    </body>
+</html>

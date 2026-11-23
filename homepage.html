@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Web For All</title>
+		<link rel="stylesheet" href="styles.css">
+		<script src="script.js" defer></script>
+  	</head>
+
+  	<body class="about-page">
+		<nav class="navbar">
+			<ul class="nav-links">
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="about-page.html">About</a></li>
+				<li><a href="contact-page.html">Contact</a></li>
+			</ul>
+		</nav>
+
+		<div class="homepage-container">
+			<header class="homepage-heading">
+				<h1 class="title">Making the Digital World Accessible for Everyone</h1>
+			</header>
+
+			<p id="home-paragraph-container">
+				Welcome to the Accessibility Guide This page will help you understand how digital 
+				accessibility makes websites and technology easier to use for everyone. 
+				People have different abilities and ways of using technology. Some may have difficulty 
+				seeing, hearing, moving, or understanding information. Through accessible design and 
+				helpful features, we can make digital experiences easier and more inclusive
+			</p>
+
+			<button onclick="textToSpeech('home-paragraph-container')">Read Aloud</button>
+		</div>
+
+		<div class="settings-config-container">
+			<div class="configure-settings-content-container">
+				<h2 id="configure-settings-heading">Configure Settings</h2>
+				<p id="settings-config-paragraph-container">
+					Everyone uses technology differently. Explore the available settings and see how 
+					options such as text size, language, and display preferences can make a website 
+					more comfortable to use.
+				</p>
+
+				<button onclick="textToSpeech('settings-config-paragraph-container')">Read Aloud</button>
+			</div>
+
+			<div class="lang-set-container">
+				<label>Select Language</label>
+				<input type="radio" name="language" value="en"> English
+				<input type="radio" name="language" value="fil"> Filipino
+			</div>
+
+			<div class="font-size-container">
+				<label>Adjust Font Size</label>
+			</div>
+
+			<div class="dark-mode-container">
+				<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+			</div>
+			
+			<button class="access-guide-button"><a href="accessibility-guide-page.html">Proceed to Accessibility Guide Page</a></button>
+		</div>
+
+		<footer>
+			<p>&copy; 2026 Web For All. Digital Accessibility for Everyone.</p>
+			<nav>
+			<a href="about-page.html">About</a>
+			<a href="contact-page.html">Contact Us</a>
+			</nav>
+		</footer>
+    </body>
+</html>

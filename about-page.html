@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us | Web For All</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <nav class="navbar">
+			<ul class="nav-links">
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="about-page.html">About</a></li>
+				<li><a href="contact-page.html">Contact</a></li>
+			</ul>
+		</nav>
+
+        <div class="about-container">
+            <header class="about-heading">
+                <h1>About Us</h1>
+                <h3>Who We Are?</h3>
+            </header>
+
+            <p id="about-paragraph-container">
+                Web For All is a student-created educational website that promotes digital 
+                accessibility and inclusion. We want to make accessibility easier to understand 
+                through simple explanations, practical examples, and interactive learning 
+                activities.
+            </p>
+
+            <button onclick="textToSpeech('about-paragraph-container')">Read Aloud</button>
+        </div>
+
+        <div class="vision-container">
+            <h2 class="vision">Our Vision</h2>
+            <p id="vision-text">
+                A digital world where people can access information and opportunities without unnecessary barriers, regardless of their abilities.
+            </p>
+
+            <button onclick="textToSpeech('vision-text')">Read Aloud</button>
+        </div>
+
+        <div class="mission-container">
+            <h2 class="mission">Our Mission</h2>
+            <p id="mission-text">
+                To raise awareness about digital accessibility and encourage thoughtful website design through easy-to-follow guides and learning activities.
+            </p>
+
+            <button onclick="textToSpeech('mission-text')">Read Aloud</button>
+        </div>
+
+        <div class="core-values-container">
+            <h2 class="core-values">Core Values</h2>
+            <ul id="core-values-text">
+                <li>Inclusivity — Making space for different needs and experiences.</li>
+                <li>Equality — Supporting fair access to online information.</li>
+                <li>Empathy — Considering the challenges others may face.</li>
+                <li>Responsibility — Making ethical choices when designing technology.</li>
+                <li>Continuous Learning — Staying open to better and more accessible solutions.</li>
+            </ul>
+
+            <button onclick="textToSpeech('core-values-text')">Read Aloud</button>
+        </div>
+
+        <footer>
+			<p>&copy; 2026 Web For All. Digital Accessibility for Everyone.</p>
+			<nav>
+			<a href="about-page.html">About</a>
+			<a href="contact-page.html">Contact Us</a>
+			</nav>
+		</footer>
+    </body>
+</html>
